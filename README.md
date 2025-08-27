@@ -1,2 +1,21 @@
-# Protein-Network-Analysis
-Built a small project using R to analyze protein–protein interactions from the BIOGRID database. Extracted protein interactors (using official gene symbols) and identified hub proteins (highly connected nodes). Created a sub-network graph to visualize their interactions. This dataset and graph can help to analyze and visualize sample protein hubs.
+# Gene Expression Protein Interaction
+
+This project analyzes a protein–protein interaction (PPI) network from BIOGRID-MV-Physical-4.4.247.tab3.zip
+
+## Contents
+- `data/top_hubs.rds` → R object containing hub proteins identified from the network.
+- `data/sub_g_nodes.csv` → Subnetwork of hub proteins and their interactions.
+- `plots/subnetwork.png` → Visualization of the subnetwork.
+
+## Methods
+- Built a PPI network using igraph in R.
+- Identified hub proteins based on degree centrality.
+- Extracted a subnetwork of the most connected proteins.
+- Visualized the network to highlight potential key regulators.
+
+## Purpose
+This small project was completed as part of my R programming and bioinformatics learning.  
+It demonstrates basic skills in:
+- R (data wrangling + igraph)
+- Network biology concepts
+- Reproducible research with GitHub
