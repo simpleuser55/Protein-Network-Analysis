@@ -5,7 +5,7 @@ This project analyzes a protein–protein interaction (PPI) network from BIOGRID
 ## Contents
 - `top_hubs.rds` → R object containing hub proteins identified from the network.
 - `sub_g_nodes1.csv` → Subnetwork of hub proteins and their interactions.
-- `subnetwork.png` → Visualization of the subnetwork.
+- `sub_g_plot.png` → Visualization of the subnetwork.
 
 ## Methods
 - Built a PPI network using igraph in R.
