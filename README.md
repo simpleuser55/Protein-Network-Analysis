@@ -23,11 +23,11 @@ It demonstrates basic skills in:
 - Network biology concepts
 - Reproducible research with GitHub
 
-##Plot
+## Plot
 
-![Subnetwork Plot](sub_g_plot.png)
+![Subnetwork Plot](subnetwork_plot.png)
 
-##Impact
+## Impact
 
 Identified key hub proteins potentially critical in homo sapiens via network analysis.
 
