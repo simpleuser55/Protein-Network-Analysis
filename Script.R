@@ -23,7 +23,7 @@ top_hubs <- sort(deg, decreasing = TRUE)[1:10]
 top_hubs
 
 # Plotting the graph for top hubs
-plot(subgraph.edges(g, E(g)[1:500]), 
+plot(subgraph_from_edges(g, E(g)[1:500]), 
      vertex.size=5, vertex.label=NA,
      main="Protein-Protein Interaction Network (subset)")
 
