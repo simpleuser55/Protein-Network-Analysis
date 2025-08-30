@@ -13,7 +13,7 @@ Protein Network Analysis: Identifying Hub Proteins from BIOGRID-MV-Physical-4.4.
 - Extracted a subnetwork of the most connected proteins.
 - Visualized the network to highlight potential key regulators.
 
-##Tools and skills
+## Tools and skills
 R, igraph, network visualization, BIOGRID, hub analysis
 
 ## Purpose
