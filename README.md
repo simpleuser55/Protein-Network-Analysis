@@ -6,7 +6,7 @@ Protein Network Analysis: Identifying Hub Proteins from BIOGRID-MV-Physical-4.4.
 - `top_hubs.csv` → Hub proteins identified from the network.
 - `protien_hubs.csv` → Subnetwork of hub proteins and their interactions.
 - `subnetwork_plot.png` → Visualization of the subnetwork.
-- `Script` → R script for the project
+- `Script.R` → R script for the project
 ## Methods
 - Built a PPI network using igraph in R.
 - Identified hub proteins based on degree centrality.
